@@ -1,7 +1,7 @@
 # Grizzly - `setup` GitHub Action
 
-This action downloads and adds [Grizzly](https://github.com/grafana/grizzly) to
-the PATH.
+This action downloads [Grizzly](https://github.com/grafana/grizzly), adds it to
+the PATH then configures it.
 
 ## Example usage
 

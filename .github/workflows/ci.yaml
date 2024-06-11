@@ -42,7 +42,7 @@ jobs:
           version: 'latest'
           grafana_url: 'https://my-grafana-instance:3000'
           grafana_user: admin
-          grafana_token: "this really should come from a secret"
+          grafana_token: 'this really should come from a secret'
 
       - name: Print config
         run: grr config get
