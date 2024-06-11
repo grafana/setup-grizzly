@@ -6,7 +6,7 @@ the PATH then configures it.
 ## Example usage
 
 ```yaml
-uses: grafana/setup-grizzly@main
+uses: grafana/setup-grizzly@v0.1.0
 with:
   version: 'v0.4.0'
   grafana_url: 'https://my-grafana-instance:3000'
