@@ -1,0 +1,52 @@
+name: 'Setup Grizzly'
+description: 'Setup Grizzly - A utility for managing Grafana resources'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+
+inputs:
+  version:
+    description: 'Version of Grizzly to install'
+    required: true
+    default: 'latest'
+
+  grafana_url:
+    description: Sets `grafana.url` in the configuration
+    required: false
+  grafana_token:
+    description: Sets `grafana.token` in the configuration
+    required: false
+  grafana_user:
+    description: Sets `grafana.user` in the configuration
+    required: false
+  mimir_address:
+    description: Sets `mimir.address` in the configuration
+    required: false
+  mimir_tenant_id:
+    description: Sets `mimir.tenant-id` in the configuration
+    required: false
+  mimir_api_key:
+    description: Sets `mimir.api-key` in the configuration
+    required: false
+  synthetic_monitoring_token:
+    description: Sets `synthetic-monitoring.token` in the configuration
+    required: false
+  synthetic_monitoring_stack_id:
+    description: Sets `synthetic-monitoring.stack-id` in the configuration
+    required: false
+  synthetic_monitoring_metrics_id:
+    description: Sets `synthetic-monitoring.metrics-id` in the configuration
+    required: false
+  synthetic_monitoring_logs_id:
+    description: Sets `synthetic-monitoring.logs-id` in the configuration
+    required: false
+  targets:
+    description: Sets `targets` in the configuration
+    required: false
+  output_format:
+    description: Sets `output-format` in the configuration
+    required: false
+  only_spec:
+    description: Sets `only-spec` in the configuration
+    required: false
