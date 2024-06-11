@@ -9,9 +9,9 @@ the PATH.
 uses: grafana/setup-grizzly@main
 with:
   version: 'v0.4.0'
-  grafana.url: 'https://my-grafana-instance:3000'
-  grafana.user: admin
-  grafana.token: ${{ secrets.GRIZZLY_GRAFANA_TOKEN}}
+  grafana_url: 'https://my-grafana-instance:3000'
+  grafana_user: admin
+  grafana_token: ${{ secrets.GRIZZLY_GRAFANA_TOKEN}}
 ```
 
 ## Inputs
