@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: setup-grizzly
+  title: setup-grizzly GitHub Action
+  annotations:
+    github.com/project-slug: grafana/setup-grizzly
+  links:
+    - title: Slack Channel
+      url: https://raintank-corp.slack.com/archives/C018SLDD5MW
+  description: |
+    GitHub action to setup and use Grizzly 
+spec:
+  type: tool
+  owner: group:default/platform-monitoring
+  lifecycle: production
