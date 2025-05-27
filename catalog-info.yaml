@@ -11,6 +11,6 @@ metadata:
   description: |
     GitHub action to setup and use Grizzly 
 spec:
-  type: tool
+  type: github-action
   owner: group:default/platform-monitoring
   lifecycle: production
